@@ -27,7 +27,7 @@ WARNING=1
 CRITICAL=2
 UNKNOWN=3
 
-# Weather or not we can trust the exit code from the service management tool.
+# Whether or not we can trust the exit code from the service management tool.
 # Defaults to 0, put to 1 for systemd.  Otherwise we must rely on parsing the
 # output from the service management tool.
 TRUST_EXIT_CODE=0
